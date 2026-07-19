@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Dataset (bohot bara hai — README mein download link hai)
+data/midi/
+
+# Preprocessed data & checkpoints (repo halka rakhne ke liye)
+data/notes.pkl
+model/checkpoint.keras
+
+# OS
+Thumbs.db
+.DS_Store
