@@ -51,6 +51,8 @@ python generate.py --notes 300 --temperature 1.2 --count 3
 
 ## 📸 Screenshots & Results
 
+![Web UI](screenshots/ui.png)
+
 ![Training](screenshots/training.png)
 
 **Training summary:**
