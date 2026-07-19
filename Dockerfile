@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 EXPOSE 10000
-CMD gunicorn --bind 0.0.0.0:${PORT:-10000} --timeout 180 --workers 1 web_app:app
+CMD gunicorn --chdir /app --bind 0.0.0.0:${PORT:-10000} --timeout 180 --workers 1 web_app:app
