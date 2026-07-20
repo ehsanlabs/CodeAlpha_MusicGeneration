@@ -6,8 +6,7 @@ __pycache__/
 # Dataset (bohot bara hai — README mein download link hai)
 data/midi/
 
-# Preprocessed data & checkpoints (repo halka rakhne ke liye)
-data/notes.pkl
+# Checkpoints (repo halka rakhne ke liye — notes.pkl zaroori hai web app ke liye)
 model/checkpoint.keras
 
 # OS
